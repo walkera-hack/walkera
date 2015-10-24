@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WK-REMOTE</string>
+    <string name="pictureb_name">Photo Browser</string>
+    <string name="videob_name">Video Browser</string>
+    <string name="soft_update_title">Software Upgrade</string>
+    <string name="soft_update_updatebtn">Upgrade</string>
+    <string name="soft_update_later">Upgrade later</string>
+    <string name="soft_updating">Upgrading...</string>
+    <string name="soft_update_cancel">Cancel</string>
+    <string name="picture">Picture</string>
+    <string name="select_intro">Long-press a thumb nail to add an image</string>
+    <string name="show_intro">Press a thumb nail to display at larger size</string>
+</resources>

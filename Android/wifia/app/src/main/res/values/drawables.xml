@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="black">#ff000000</item>
+    <item type="drawable" name="other">#fffff00f</item>
+    <item type="drawable" name="blue">#ff0000ff</item>
+    <item type="drawable" name="gray">#ff4c4c4c</item>
+    <item type="drawable" name="green">#ff11ff00</item>
+    <item type="drawable" name="yellow">#ffffee00</item>
+    <item type="drawable" name="red">#ffee00aa</item>
+    <item type="drawable" name="lightgray">#ffa0a0a0</item>
+    <item type="drawable" name="Translucent">#00000000</item>
+    <item type="drawable" name="lightblue">#ff00cccc</item>
+</resources>

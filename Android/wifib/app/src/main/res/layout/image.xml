@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/bg0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="#fff9f900" android:gravity="center" android:id="@id/logo0" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="" android:layout_alignParentTop="true" />
+    <ImageSwitcher android:id="@id/switcher" android:layout_width="240.0dip" android:layout_height="320.0dip" android:layout_below="@id/logo0" android:layout_centerInParent="true" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/name_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/logo" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="" android:layout_below="@id/switcher" />
+    <com.walkera.wifib.picturebrowser.GalleryP android:gravity="center_vertical" android:id="@id/mygallery" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="TextColor">#ffffffff</color>
+    <color name="bgColor">#ff000000</color>
+    <color name="gl_background">#ff737373</color>
+    <color name="window_bg">#ffeef1f3</color>
+    <color name="qqblue">#ff54acea</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff008000</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="gray">#ff808080</color>
+    <color name="gray0">#ff4c4c4c</color>
+    <color name="name_color">#ffcc8c00</color>
+    <color name="light_gray">#ffa0a0a0</color>
+    <color name="light_blue">#ff00cccc</color>
+</resources>

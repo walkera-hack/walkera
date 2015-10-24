@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <com.walkera.wifia.CurveSurfaceView android:id="@id/my0CurveSurfaceView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="45dp">
+            <Spinner android:id="@id/throSpinner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="@style/test" android:textColor="#ff8c00" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="THRO" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
+            <TextView android:textColor="#ff8c00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ON/OFF:  " />
+            <Button android:textColor="#00ff00" android:id="@id/pointOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ON" />
+        </LinearLayout>
+        <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:stretchColumns="4">
+            <TableRow>
+                <TextView android:textColor="#ff8c00" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OUTPUT:" />
+                <SeekBar android:layout_gravity="center_vertical" android:id="@id/adjustSeekBar" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:max="200" android:progress="0" android:secondaryProgress="200" />
+                <Button android:textColor="#00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/dec" android:background="@layout/shape" android:layout_width="25dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="-" />
+                <Button android:textColor="#00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/inc" android:background="@layout/shape" android:layout_width="25dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="+" />
+            </TableRow>
+            <TableRow>
+                <TextView android:layout_width="wrap_content" android:layout_height="10dp" android:text=" " />
+                <TextView android:textSize="11dp" android:textColor="#00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/adjustRatio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100%" />
+            </TableRow>
+        </TableLayout>
+        <Button android:id="@id/expOn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:text="EXP OFF" />
+    </LinearLayout>
+</FrameLayout>

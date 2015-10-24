@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#ff565656</item>
+    </style>
+    <style name="test" parent="@android:style/Theme">
+        <item name="android:windowTitleSize">45.0dip</item>
+    </style>
+    <style name="PopupAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+    <style name="viewAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/viewshow</item>
+        <item name="android:windowExitAnimation">@anim/viewhidden</item>
+    </style>
+</resources>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MessageModel"
+    targetNamespace="http://tempuri.org/MessageModel.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/MessageModel.xsd"
+    xmlns:mstns="http://tempuri.org/MessageModel.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="MessageModel">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- Package start bits-->
+        <xs:element name="PackageStart" type="xs:int"/>
+
+        <!-- WiFi control bits [60,61]-->
+        <xs:element name="WiFiControl" type="xs:int"/>
+        <!-- Throttle bits [00,ff]-->
+        <xs:element name="Throttle" type="xs:int"/>
+        <!-- Rudder bits [00,ff]-->
+        <xs:element name="Rudder" type="xs:int"/>
+        <!-- Elevator bits [00,ff]-->
+        <xs:element name="Elevator" type="xs:int"/>
+        <!-- Aileron bits [00,ff]-->
+        <xs:element name="Aileron" type="xs:int"/>
+        <!-- Gyro bits [00,ff]-->
+        <xs:element name="Gyro" type="xs:int"/>
+
+        <!-- Checksum bits [00,ff]-->
+        <xs:element name="Checksum" type="xs:int"/>
+
+        <!-- Package end bits-->
+        <xs:element name="PackageEnd" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

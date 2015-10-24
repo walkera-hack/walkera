@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.walkera.wifib.CurveSurfaceView android:id="@id/myCurveSurfaceView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Spinner android:id="@id/helmSpinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="45.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#ffff8c00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="HELM: " />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip">
+            <Button android:textColor="#ff00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/helmdec" android:background="@layout/shape" android:layout_width="25.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="-" />
+            <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:stretchColumns="1">
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip">
+                    <Button android:textColor="#ffff8c00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/hbigdi" android:background="@layout/shape" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="0%" />
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+                    <Button android:textColor="#ffff8c00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/hsmalldi" android:background="@layout/shape" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="0%" />
+                </TableRow>
+            </TableLayout>
+            <Button android:textColor="#ff00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/helminc" android:background="@layout/shape" android:layout_width="25.0dip" android:layout_height="wrap_content" android:text="+" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#ffff8c00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="EXP: " />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip">
+            <Button android:textColor="#ff00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/expdec" android:background="@layout/shape" android:layout_width="25.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="-" />
+            <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:stretchColumns="3">
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip">
+                    <Button android:textColor="#ffff8c00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/ebigdi" android:background="@layout/shape" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="0%" />
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+                    <Button android:textColor="#ffff8c00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/esmalldi" android:background="@layout/shape" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="0%" />
+                </TableRow>
+            </TableLayout>
+            <Button android:textColor="#ff00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/expinc" android:background="@layout/shape" android:layout_width="25.0dip" android:layout_height="wrap_content" android:text="+" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

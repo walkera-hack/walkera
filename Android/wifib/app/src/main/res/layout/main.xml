@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Connect" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <Button android:id="@id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Disconnect" android:layout_below="@id/button1" android:layout_alignParentLeft="true" />
+    <Button android:id="@id/button4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Stopvideo" android:layout_toRightOf="@id/button3" android:layout_alignParentTop="true" />
+    <Button android:id="@id/button5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Search" android:layout_toRightOf="@id/button4" android:layout_alignParentTop="true" />
+    <Button android:id="@id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Playvideo" android:layout_toRightOf="@id/button1" android:layout_above="@id/button2" />
+    <Button android:id="@id/button6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PlayAudio" android:layout_alignBaseline="@id/button2" android:layout_alignBottom="@id/button2" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/button7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="StopAudio" android:layout_alignBaseline="@id/button6" android:layout_alignBottom="@id/button6" android:layout_alignParentRight="true" />
+    <Button android:id="@id/button8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="getPara" android:layout_below="@id/button2" android:layout_alignRight="@id/button1" />
+    <Button android:id="@id/button9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="setPara" android:layout_toLeftOf="@id/button4" android:layout_alignBaseline="@id/button8" android:layout_alignBottom="@id/button8" />
+    <Button android:id="@id/button10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PTZCtrol" android:layout_toRightOf="@id/button6" android:layout_alignBaseline="@id/button9" android:layout_alignBottom="@id/button9" />
+    <SurfaceView android:id="@id/surfaceView1" android:layout_width="320.0dip" android:layout_height="240.0dip" android:layout_marginTop="41.0dip" android:layout_below="@id/button8" android:layout_centerHorizontal="true" />
+</RelativeLayout>

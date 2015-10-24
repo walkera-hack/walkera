@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textColor="#84db18" android:ellipsize="marquee" android:background="#424142" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" style="@style/test" /> <!--android:id="0x1020014"-->

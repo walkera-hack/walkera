@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/mScrollView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/openNetCard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打开无线网卡" />
+            <Button android:id="@id/closeNetCard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关闭无线网卡" />
+            <Button android:id="@id/checkNetCardState" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="检查网卡状态" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/scan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="扫描网络" />
+            <Button android:id="@id/getScanResult" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="扫描结果" />
+            <Button android:id="@id/getConfiguration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="扫描配置" />
+            <Button android:id="@id/connectAP0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="连接固定热点0" />
+            <Button android:id="@id/connectAP1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="连接固定热点1" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/connect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="连接Wifi" />
+            <Button android:id="@id/disconnect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="断开Wifi" />
+            <Button android:id="@id/checkNetWorkState" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Wifi连接状态" />
+            <Button android:id="@id/clearrflag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Clear RFlag" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/clients" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Client S" />
+            <Button android:id="@id/clientr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Client R" />
+            <Button android:id="@id/clientsr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Client SR" />
+            <Button android:id="@id/wifisocket" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Wifi Socket" />
+            <Button android:id="@id/socketstatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Socket Status" />
+        </LinearLayout>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Item Result:" />
+        <TextView android:id="@id/scanResult" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

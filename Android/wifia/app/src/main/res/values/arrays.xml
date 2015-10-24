@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="helm_labels">
+        <item>ELEV</item>
+        <item>AILE</item>
+        <item>RUDD</item>
+    </string-array>
+    <string-array name="thro_labels">
+        <item>L:0.0%</item>
+        <item>1:16.5%</item>
+        <item>2:33.5%</item>
+        <item>M:50.0%</item>
+        <item>1:66.5%</item>
+        <item>2:83.5%</item>
+        <item>H:100.0%</item>
+    </string-array>
+</resources>

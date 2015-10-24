@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <TextView android:layout_width="fill_parent" android:layout_height="45dp" android:text="" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:id="@id/photos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image" android:layout_weight="1.0" />
+        <TextView android:textSize="20dp" android:textColor="#ff8c00" android:gravity="left" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Photo" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:id="@id/videos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/videeon" android:layout_weight="1.0" />
+        <TextView android:textSize="20dp" android:textColor="#ff8c00" android:gravity="left" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Video" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

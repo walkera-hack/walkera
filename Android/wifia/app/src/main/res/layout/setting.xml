@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="37dp">
+        <TextView android:textAppearance="@style/test" android:layout_gravity="center_vertical" android:id="@id/models" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MODEL: " />
+        <Spinner android:id="@id/modelSpinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" />
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/vibrator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="57dp" android:text="VIBRATE" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp">
+        <TextView android:textAppearance="@style/test" android:layout_gravity="center_vertical" android:id="@id/label0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="REVERSE:" />
+        <TableLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="4">
+            <TableRow>
+                <CheckBox android:id="@id/aa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ELEV" />
+                <CheckBox android:id="@id/bb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AILE" />
+                <CheckBox android:id="@id/cc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="THRO" />
+                <CheckBox android:id="@id/dd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RUDD" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/test" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TRIM:" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TableLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:stretchColumns="4">
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                        <Button android:textColor="#00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/elevd" android:background="@layout/shape" android:layout_width="25dp" android:layout_height="wrap_content" android:text="-" />
+                        <Button android:textColor="#ff8c00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/elevdi" android:background="@layout/shape" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="ELEV: 0" />
+                        <Button android:textColor="#00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/elevi" android:background="@layout/shape" android:layout_width="25dp" android:layout_height="wrap_content" android:text="+" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp">
+                        <Button android:textColor="#00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/ailed" android:background="@layout/shape" android:layout_width="25dp" android:layout_height="wrap_content" android:text="-" />
+                        <Button android:textColor="#ff8c00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/ailedi" android:background="@layout/shape" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="AILE: 0" />
+                        <Button android:textColor="#00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/ailei" android:background="@layout/shape" android:layout_width="25dp" android:layout_height="wrap_content" android:text="+" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp">
+                        <Button android:textColor="#00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/throd" android:background="@layout/shape" android:layout_width="25dp" android:layout_height="wrap_content" android:text="-" />
+                        <Button android:textColor="#ff8c00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/throdi" android:background="@layout/shape" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="THRO: 0" />
+                        <Button android:textColor="#00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/throi" android:background="@layout/shape" android:layout_width="25dp" android:layout_height="wrap_content" android:text="+" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp">
+                        <Button android:textColor="#00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/ruddd" android:background="@layout/shape" android:layout_width="25dp" android:layout_height="wrap_content" android:text="-" />
+                        <Button android:textColor="#ff8c00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/rudddi" android:background="@layout/shape" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="RUDD: 0" />
+                        <Button android:textColor="#00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/ruddi" android:background="@layout/shape" android:layout_width="25dp" android:layout_height="wrap_content" android:text="+" />
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp">
+                        <Button android:textColor="#00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/gyrod" android:background="@layout/shape" android:layout_width="25dp" android:layout_height="wrap_content" android:text="-" />
+                        <Button android:textColor="#ff8c00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/gyrodi" android:background="@layout/shape" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="GYRO: 0%" />
+                        <Button android:textColor="#00ff00" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/gyroi" android:background="@layout/shape" android:layout_width="25dp" android:layout_height="wrap_content" android:text="+" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp">
+            <TextView android:textAppearance="@style/test" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MODE:" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp">
+                <Button android:textColor="#ff8c00" android:gravity="center" android:id="@id/mode1" android:background="@layout/shape" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="Mode1" />
+                <Button android:textColor="#ff8c00" android:gravity="center" android:id="@id/mode4" android:background="@layout/shape" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Mode2" />
+                <Button android:textColor="#ff8c00" android:gravity="center" android:id="@id/mode2" android:background="@layout/shape" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Mode3" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                    <Button android:textColor="#ff8c00" android:gravity="center" android:id="@id/mode3" android:background="@layout/shape" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mode4" />
+                    <Button android:textColor="#ff8c00" android:gravity="center" android:id="@id/recover" android:background="@layout/shape" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="RESET" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
